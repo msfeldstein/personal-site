@@ -1,0 +1,18 @@
+.NavBar {
+    width: 100%;
+    overflow: scroll;
+}
+.NavBar a {
+    color: #7B7B7B;
+    text-decoration: none;
+    font-size: 36px;
+    margin-right: 16px;
+}
+
+.NavBar a:last-of-type {
+    margin-right: 0;
+}
+
+.NavBar a.active {
+    color: #DCDCDC;
+}
