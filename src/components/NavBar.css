@@ -1,6 +1,9 @@
 .NavBar {
     width: 100%;
-    overflow: scroll;
+    padding-left: 16px;
+    padding-right: 16px;
+    overflow-x: auto;
+    box-sizing: border-box;
 }
 .NavBar a {
     color: #7B7B7B;
