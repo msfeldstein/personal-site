@@ -22,3 +22,9 @@
 .Project_description a {
     color: inherit;
 }
+
+.Project_thumb {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+    margin-top: 16px;
+}
