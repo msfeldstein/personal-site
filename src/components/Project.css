@@ -1,18 +1,9 @@
 .Project {
 
-    /* display: flex;
-    align-items: flex-end;
-    background-position: right;
-    background-size: contain;
-    background-repeat: no-repeat; */
 }
 
 .Project + .Project {
     margin-top: 16px;
-}
-
-.Project_title {
-
 }
 
 .Project_description {

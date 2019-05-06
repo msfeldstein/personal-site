@@ -41,7 +41,7 @@ export default function About(props) {
         </p>
 
         <p>
-            Meanwhile, I did some freelance work at Uber, helping to bring prototyping into their process.  Before we had <span style={framerStyle}>Framer Studio</span>, I built AirFrame, a bespoke app for Uber designers and developers to get access to phone mirroring, live-reload, modules, and other features needed to make prototyping a first class discipline.
+            Meanwhile, I did some freelance work at Uber, helping to bring prototyping into their process.  Before we had Framer Studio I built <span style={framerStyle}>AirFrame</span>,, a bespoke app for Uber designers and developers to get access to phone mirroring, live-reload, modules, and other features needed to make prototyping a first class discipline.
         </p>
 
         <p>
