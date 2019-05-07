@@ -28,6 +28,25 @@ export default function Projects(props) {
             </div>,
             thumb: datlogo
         },
+
+        {
+            title: 'Utilities',
+            description: <div>
+                <div>
+                    <a href="https://www.npmjs.com/package/budo-to-gh-pages" target="_blank">budo-to-gh-pages</a> will package and deploy a <a href="https://github.com/mattdesl/budo" target="_blank">budo</a> prototype to gh-pages in one command.
+                </div> 
+                <div>
+                    <a href="https://github.com/msfeldstein/gitignore" target="_blank">gitignore</a> is a cli command to generate gitignores for any project type.
+                </div>
+                <div>
+                    <a href="https://github.com/msfeldstein/create-vive-project" target="_blank">create-vive-project</a> will spin up a new WebVR vive project with models and everything you need to just get started.
+                </div>
+                <div>
+                    <a href="https://github.com/msfeldstein/glb-utils">glb-utils</a> lets you pack and unpack glTF binary files to help with development.
+                </div>
+            </div>
+        },
+
         {
             title: 'Chrome Media Keys',
             description: <div>
