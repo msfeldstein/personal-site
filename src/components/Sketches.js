@@ -27,10 +27,18 @@ export default function Sketches(props) {
         {
             title: 'GooVR',
             description: <div>
-                <a href="https://msfeldstein.github.io/reglparticles/" target="_blank">GooVR</a> is a WebVR mesh manipulation prototype.  It may not work on modern browsers or devices.
-                <div className={styles.source}><a href="https://msfeldstein.github.io/reglparticles/" target="_blank">View</a> <a href="https://github.com/msfeldstein/reglparticles" target="_blank">Code</a></div>
+                GooVR is a WebVR mesh manipulation prototype.  It may not work on modern browsers or devices.
             </div>,
             video: 'goovr.mp4'
+        },
+
+        {
+            title: 'Portals',
+            description: <div>
+                Experimenting with portals in ThreeJS using stencils
+                <div className={styles.source}><a href="https://msfeldstein.github.io/20-Portals/" target="_blank">View</a> <a href="https://github.com/msfeldstein/20-Portals" target="_blank">Code</a></div>
+            </div>,
+            video: 'portal.mp4'
         },
     ]
     return <div>

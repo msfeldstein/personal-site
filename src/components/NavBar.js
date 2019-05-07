@@ -7,7 +7,7 @@ export default function NavBar(props) {
         <NavLink to="/about">About</NavLink>
         <NavLink to="/work">Work</NavLink>
         <NavLink to="/projects">Projects</NavLink>
-        {/* <NavLink to="/sketches">Sketches</NavLink> */}
+        <NavLink to="/sketches">Sketches</NavLink>
         <NavLink to="/resume">Resume</NavLink>
     </div>
 }
