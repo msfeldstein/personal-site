@@ -18,6 +18,10 @@
     margin-right: 16px;
 }
 
+.link {
+   transform: scale(50%);
+}
+
 svg {
     opacity: 0.5;
 }

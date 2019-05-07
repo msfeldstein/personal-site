@@ -14,6 +14,10 @@
     color: inherit;
 }
 
+.Project_info {
+    flex-grow: 1;
+}
+
 .Project_thumb {
     display: block;
 }
@@ -32,18 +36,17 @@
 @media screen and (min-width: 400px) {
     .Project {
         flex-direction: row;
-        overflow: hidden;
-        height: 250px;
+        height: 200px;
     }
 
     .Project_description {
         padding-right: 32px;
     }
     .Project_thumb {
-        width: 300px;
-        height: auto;
-        display: inline;
+        width: 300px !important;
+
+        display: block;
         object-fit: contain;
-        object-position: top;
+        object-position: center;
     }
 }
