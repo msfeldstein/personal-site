@@ -1,5 +1,5 @@
 .Project {
-
+    display: flex;
 }
 
 .Project + .Project {
@@ -15,7 +15,35 @@
 }
 
 .Project_thumb {
-    width: calc(100% + 32px);
-    margin-left: -16px;
-    margin-top: 16px;
+    display: block;
+}
+
+@media screen and (max-width: 399px) {
+    .Project {
+        flex-direction: column;
+    }
+    .Project_thumb {
+        width: calc(100% + 32px);
+        margin-left: -16px;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .Project {
+        flex-direction: row;
+        overflow: hidden;
+        height: 250px;
+    }
+
+    .Project_description {
+        padding-right: 32px;
+    }
+    .Project_thumb {
+        width: 300px;
+        height: auto;
+        display: inline;
+        object-fit: contain;
+        object-position: top;
+    }
 }
