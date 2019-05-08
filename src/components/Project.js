@@ -2,7 +2,7 @@ import React from 'react'
 import './Project.css'
 export default function Project(props) {
     const img = props.thumb ? <img className="Project_thumb" src={props.thumb} /> : null
-    const video = props.video ? <video className="Project_thumb" src={props.video} muted loop autoPlay/> : null
+    const video = props.video ? <video className="Project_thumb" src={props.video} playsinline muted loop autoPlay/> : null
     return <div key={props.title} className="Project">
         <div className="Project_info">
             <div className="Project_title">{props.title}</div>

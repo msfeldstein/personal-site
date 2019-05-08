@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 import Header from './components/Header'
 import NavBar from './components/NavBar'
 import About from './components/About'
@@ -11,7 +11,7 @@ import Resume from './components/Resume'
 import './App.css' 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div className="App">
         <Header />
         <NavBar />
