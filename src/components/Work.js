@@ -41,14 +41,14 @@ export default function About(props) {
         </p>
 
         <p>
-            Meanwhile, I did some freelance work at Uber, helping to bring prototyping into their process.  Before we had Framer Studio I built <span style={framerStyle}>AirFrame</span>,, a bespoke app for Uber designers and developers to get access to phone mirroring, live-reload, modules, and other features needed to make prototyping a first class discipline.
+            Meanwhile, I did some freelance work at Uber, helping to bring prototyping into their process.  Before we had Framer Studio I built <span style={framerStyle}>AirFrame</span>, a bespoke app for Uber designers and developers to get access to phone mirroring, live-reload, modules, and other features needed to make prototyping a first class discipline.
         </p>
 
         <p>
-            Building on to my love of creativity and visual arts, I joined <span style={eyegrooveStyle}>Eyegroove</span>, a startup full of artists trying to bring audio-visual expressivity to a wider audience.  We were acquired by <span style={facebookStyle}>Facebook</span> in 2016 where we integrated our shader and interactivity frameworks with Spark AR Studio for the Camera Platform.
+            Building on to my love of creativity and visual arts, I joined <span style={eyegrooveStyle}>Eyegroove</span>, a startup full of artists trying to bring audio-visual expressivity to a wider audience.  We were acquired by <span style={facebookStyle}>Facebook</span> in 2016 where we integrated our shader and interactivity frameworks with <a href="https://sparkar.facebook.com/ar-studio/features" target="_blank" rel="noopener noreferrer">Spark AR Studio</a> for the Camera Platform.
             </p>
 
         <p>
-            In 2017 I moved to the SocialVR team where I prototyped and implemented 3d Posts and 3d Photos to try to bring the Facebook App and the immersive reality our team was working on a bit closer together.  Currently I’m working on VR experiences which I can hopefully speak about soon!</p>
+            In 2017 I moved to the SocialVR team where I prototyped and implemented <a href="https://facebook360.fb.com/2018/10/11/3d-photos-now-rolling-out-on-facebook-and-in-vr/" target="_blank" rel="noopener noreferrer">3d Posts and 3d Photos</a> to try to bring the Facebook App and the immersive reality our team was working on a bit closer together.  Currently I’m working on VR experiences which I can hopefully speak about soon!</p>
     </div>
 }

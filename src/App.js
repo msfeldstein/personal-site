@@ -16,6 +16,7 @@ function App() {
         <Header />
         <NavBar />
         <div className="App_content">
+          <Route path="/" exact component={About} />
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/work" component={Work} />
